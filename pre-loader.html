@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      /* Loader */
+      .main_container {
+        opacity: 0;
+        display: none;
+        transition: opacity 1s ease-in;
+      }
+      .loaderrr {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        -webkit-justify-content: center;
+        -o-justify-content: center;
+        -moz-justify-content: center;
+        -webkit-align-items: center;
+        -moz-align-items: center;
+        -o-align-items: center;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background-color: #ffffff;
+      }
+      .loaderrr img {
+        width: 300px;
+      }
+
+      .testimonial .titlepage h3 {
+        color: #c6235a;
+        font-size: 30px;
+        font-weight: 700;
+      }
+      .testimonial .titlepage h2 {
+        font-size: 38px;
+        font-weight: 500;
+        color: #393636;
+      }
+      .testimonial .titlepage span {
+        color: #414040;
+        font-weight: 900;
+        font-size: 44px;
+      }
+
+      .colored-title {
+        color: #b00d28;
+        font-weight: 900;
+        font-size: 26px;
+      }
+      @media (max-width: 769px) {
+        .testimonial .titlepage h2 {
+          margin: 0;
+        }
+        .testimonial .titlepage p {
+          padding-top: 0px;
+        }
+        .testimonial .titlepage h2 {
+          font-size: 26px;
+        }
+        .testimonial .titlepage span {
+          font-size: 36px;
+        }
+      }
+      @media (max-width: 769px) {
+        .testimonial .titlepage span {
+          font-size: 32px;
+        }
+      }
+      /* Loader Ends Here */
+    </style>
+  </head>
+  <body>
+    <!-- loader -->
+    <div class="page_loader">
+      <div class="loaderrr">
+        <img
+          src="https://i.pinimg.com/originals/58/e4/a4/58e4a4e4fa041a11f796a2014b1bcfa4.gif"
+          alt="loader"
+        />
+      </div>
+    </div>
+    <!-- end loader -->
+
+    <div class="main_container">
+      <video autoplay="" loop="" controls="" width="640" height="480">
+        <source
+          type="video/mp4"
+          src="https://endtest-videos.s3-us-west-2.amazonaws.com/documentation/endtest_data_driven_testing_csv.mp4"
+        />
+      </video>
+      <video autoplay="" loop="" controls="" width="640" height="480">
+        <source
+          type="video/mp4"
+          src="https://endtest-videos.s3-us-west-2.amazonaws.com/documentation/endtest_data_driven_testing_csv.mp4"
+        />
+      </video>
+      <video autoplay="" loop="" controls="" width="640" height="480">
+        <source
+          type="video/mp4"
+          src="https://endtest-videos.s3-us-west-2.amazonaws.com/documentation/endtest_data_driven_testing_csv.mp4"
+        />
+      </video>
+
+      <video autoplay="" loop="" controls="" width="640" height="480">
+        <source
+          type="video/mp4"
+          src="https://endtest-videos.s3-us-west-2.amazonaws.com/documentation/endtest_data_driven_testing_csv.mp4"
+        />
+      </video>
+      <video autoplay="" loop="" controls="" width="640" height="480">
+        <source
+          type="video/mp4"
+          src="https://endtest-videos.s3-us-west-2.amazonaws.com/documentation/endtest_data_driven_testing_csv.mp4"
+        />
+      </video>
+      <video autoplay="" loop="" controls="" width="640" height="480">
+        <source
+          type="video/mp4"
+          src="https://endtest-videos.s3-us-west-2.amazonaws.com/documentation/endtest_data_driven_testing_csv.mp4"
+        />
+      </video>
+      <video autoplay="" loop="" controls="" width="640" height="480">
+        <source
+          type="video/mp4"
+          src="https://endtest-videos.s3-us-west-2.amazonaws.com/documentation/endtest_data_driven_testing_csv.mp4"
+        />
+      </video>
+      <video autoplay="" loop="" controls="" width="640" height="480">
+        <source
+          type="video/mp4"
+          src="https://endtest-videos.s3-us-west-2.amazonaws.com/documentation/endtest_data_driven_testing_csv.mp4"
+        />
+      </video>
+      <video autoplay="" loop="" controls="" width="640" height="480">
+        <source
+          type="video/mp4"
+          src="https://endtest-videos.s3-us-west-2.amazonaws.com/documentation/endtest_data_driven_testing_csv.mp4"
+        />
+      </video>
+      <video autoplay="" loop="" controls="" width="640" height="480">
+        <source
+          type="video/mp4"
+          src="https://endtest-videos.s3-us-west-2.amazonaws.com/documentation/endtest_data_driven_testing_csv.mp4"
+        />
+      </video>
+      <video autoplay="" loop="" controls="" width="640" height="480">
+        <source
+          type="video/mp4"
+          src="https://endtest-videos.s3-us-west-2.amazonaws.com/documentation/endtest_data_driven_testing_csv.mp4"
+        />
+      </video>
+      <video autoplay="" loop="" controls="" width="640" height="480">
+        <source type="video/mp4" src="https://youtu.be/2k-uAk1GsNY" /></video
+      ><video autoplay="" loop="" controls="" width="640" height="480">
+        <source type="video/mp4" src="https://youtu.be/2k-uAk1GsNY" />
+      </video>
+    </div>
+
+    <script>
+      "use strict";
+      var loader = document.querySelector(".loaderrr");
+      const main_content = document.querySelector(".main_container");
+      window.addEventListener("load", function () {
+        loader.style.opacity = 0;
+        loader.style.display = "none";
+        main_content.style.display = "block";
+        main_content.style.opacity = 1;
+      });
+    </script>
+  </body>
+</html>
